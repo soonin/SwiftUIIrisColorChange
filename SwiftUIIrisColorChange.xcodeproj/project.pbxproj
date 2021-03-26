@@ -11,6 +11,13 @@
 		FA6386DF25F628C5008886E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6386DE25F628C5008886E0 /* ContentView.swift */; };
 		FA6386E125F628C9008886E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6386E025F628C9008886E0 /* Assets.xcassets */; };
 		FA6386E425F628C9008886E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6386E325F628C9008886E0 /* Preview Assets.xcassets */; };
+		FA6386EE25F6290C008886E0 /* ImageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6386ED25F6290C008886E0 /* ImageNode.swift */; };
+		FA6386F525F62ACC008886E0 /* bicolor_iris.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6386F125F62ACC008886E0 /* bicolor_iris.png */; };
+		FA6386F625F62ACC008886E0 /* grayIRIS.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6386F225F62ACC008886E0 /* grayIRIS.png */; };
+		FA6386F725F62ACC008886E0 /* blueIRIS.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6386F325F62ACC008886E0 /* blueIRIS.png */; };
+		FA6386F825F62ACC008886E0 /* multiIRIS.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6386F425F62ACC008886E0 /* multiIRIS.png */; };
+		FA6386FB25F62B58008886E0 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6386FA25F62B58008886E0 /* ARView.swift */; };
+		FA6386FE25F63066008886E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6386FD25F63066008886E0 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		FA6386E025F628C9008886E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6386E325F628C9008886E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA6386E525F628C9008886E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6386ED25F6290C008886E0 /* ImageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNode.swift; sourceTree = "<group>"; };
+		FA6386F125F62ACC008886E0 /* bicolor_iris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bicolor_iris.png; path = ../../../../../Downloads/bicolor_iris.png; sourceTree = "<group>"; };
+		FA6386F225F62ACC008886E0 /* grayIRIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayIRIS.png; path = ../../../../../Downloads/grayIRIS.png; sourceTree = "<group>"; };
+		FA6386F325F62ACC008886E0 /* blueIRIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueIRIS.png; path = ../../../../../Downloads/blueIRIS.png; sourceTree = "<group>"; };
+		FA6386F425F62ACC008886E0 /* multiIRIS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multiIRIS.png; path = ../../../../../Downloads/multiIRIS.png; sourceTree = "<group>"; };
+		FA6386FA25F62B58008886E0 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		FA6386FD25F63066008886E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,8 @@
 		FA6386DB25F628C5008886E0 /* SwiftUIIrisColorChange */ = {
 			isa = PBXGroup;
 			children = (
+				FA6386F025F62ABB008886E0 /* images */,
+				FA6386EC25F628E8008886E0 /* tools */,
 				FA6386DC25F628C5008886E0 /* SwiftUIIrisColorChangeApp.swift */,
 				FA6386DE25F628C5008886E0 /* ContentView.swift */,
 				FA6386E025F628C9008886E0 /* Assets.xcassets */,
@@ -67,6 +83,27 @@
 				FA6386E325F628C9008886E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA6386EC25F628E8008886E0 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				FA6386ED25F6290C008886E0 /* ImageNode.swift */,
+				FA6386FA25F62B58008886E0 /* ARView.swift */,
+				FA6386FD25F63066008886E0 /* SceneDelegate.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		FA6386F025F62ABB008886E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FA6386F125F62ACC008886E0 /* bicolor_iris.png */,
+				FA6386F325F62ACC008886E0 /* blueIRIS.png */,
+				FA6386F225F62ACC008886E0 /* grayIRIS.png */,
+				FA6386F425F62ACC008886E0 /* multiIRIS.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6386E425F628C9008886E0 /* Preview Assets.xcassets in Resources */,
+				FA6386F625F62ACC008886E0 /* grayIRIS.png in Resources */,
+				FA6386F725F62ACC008886E0 /* blueIRIS.png in Resources */,
+				FA6386F525F62ACC008886E0 /* bicolor_iris.png in Resources */,
+				FA6386F825F62ACC008886E0 /* multiIRIS.png in Resources */,
 				FA6386E125F628C9008886E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6386FE25F63066008886E0 /* SceneDelegate.swift in Sources */,
+				FA6386EE25F6290C008886E0 /* ImageNode.swift in Sources */,
+				FA6386FB25F62B58008886E0 /* ARView.swift in Sources */,
 				FA6386DF25F628C5008886E0 /* ContentView.swift in Sources */,
 				FA6386DD25F628C5008886E0 /* SwiftUIIrisColorChangeApp.swift in Sources */,
 			);
